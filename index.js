@@ -27,7 +27,7 @@ app.use("/", router);
 app.use("/", postRoutes);
 app.use("/", profileRoutes);
 
-console.log(`${process.env.NODE_ENV}`);
+// console.log(`${process.env.NODE_ENV}`);
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.join(__dirname, '/frontend/build/')));
