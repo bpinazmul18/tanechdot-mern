@@ -29,6 +29,7 @@
 To get a local copy up and running you just need to follow the following steps;
 - Clone this repository with
 git clone https://github.com/asifmuntasir/tanechdot-mern.git using your terminal or command line.
+- run `cd tanechdot-mern` to goto project directory
 - run code `.` to open it in vscode
 - run `npm install` in terminal for Install Node & Express dependencies
 - run `npm run build` in terminal but before that enter into the frontend folder with following command `cd frontend`
