@@ -5,7 +5,6 @@ const { htmlToText } = require('html-to-text');
 const fs = require('fs');
 const Post = require('../models/Post');
 const CommentSchema = require('../models/Comment');
-const { post } = require('../routes/postRoutes');
 
 module.exports.createPost = (req, res) => {
     const form = formidable({
