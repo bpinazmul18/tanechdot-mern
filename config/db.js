@@ -6,7 +6,7 @@ module.exports = connect = async () => {
         const url = await mongoose.connect(process.env.URL, {
             useUnifiedTopology: true,
 			useNewUrlParser: true,
-			useFindAndModify: false,
+			// useFindAndModify: false,
         });
         console.log("Connection created!")
     } catch (error) {
